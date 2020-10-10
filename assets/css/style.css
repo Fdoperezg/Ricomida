@@ -1,0 +1,164 @@
+body {
+  font-family: 'Cabin', sans-serif;
+}
+
+header {
+  margin-top: 50px;
+}
+
+/* h2 {
+  border-bottom: 2px solid black;
+}*/
+
+.aligndesktop {
+  align-items: center;
+}
+
+.titulogrande {
+  font-weight: 700;
+}
+
+.parrafo {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.subtitulo {
+ font-size: 25px;
+ text-align: center;
+ font-weight: 700;
+}
+
+.twobuttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bordertop {
+  border-top: 3px solid black;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.imgborder {
+  border-top: 1px solid black;
+}
+
+p {
+  margin-bottom: .1rem
+}
+
+.navbar {
+  padding: .1rem;
+}
+
+.carouselborder {
+  border-bottom: solid black;
+  padding-top: 60px;
+  margin-top: 60px;
+}
+
+.text-center {
+  padding-bottom: 20px;
+}
+
+.relacionadas {
+  border-top: solid black;
+  padding-top: 25px;
+  margin: 80px 15px;
+}
+
+.card-footer {
+  border-top: solid black;
+}
+
+.carousel-indicators {
+  top: 225px;
+}
+
+.card-title {
+  width: 298px;
+  height: 48px;
+}
+
+.carousel-indicators li {
+  background: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 0;
+}
+
+.bgcolor-nav-foot {
+  background-color: #373a3C;
+}
+
+.texto {
+  display: block;
+}
+
+.titulorecetas {
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.sizetext {
+  font-size: 20px;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.newsletterspec {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.containerpadding {
+  padding: 100px;
+}
+
+.btnspec {
+  border: 0.5px solid white;
+  border-radius: 5px;
+  margin-top: 30px;
+  padding: 10px 110px 10px 110px;
+}
+
+.TextoRicomidaNav {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  padding: 0.5px;
+}
+
+.TextoRicomidaNewsletter {
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  margin-left: 8px;
+}
+
+.TextoRicomidaFooter {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  padding: 50px;
+}
+
+@media (min-width: 768px) {
+ .bordertop {
+   border: none;
+ }
+ }
+
+ @media (min-width: 768px) {
+  .aligndesktop {
+    margin-top: 48px;
+    align-items: flex-start;
+  }
+  }
+
+  @media (min-width: 768px) {
+
+     }
